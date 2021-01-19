@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Mapmaker's Tweaks",
+  "description": "A Minecraft mod that adds some shortcuts for mapmakers making vanilla maps.",
+  "authors": ["jf908"],
+  "contact": {
+    "homepage": "https://xyfe.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GPL-3.0",
+
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.xyfe.mapmakerstweaks.ExampleMod"]
+  },
+  "mixins": ["modid.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
